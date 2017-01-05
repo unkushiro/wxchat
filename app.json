@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/weixin/index",
+    "pages/contact/index",
+    "pages/find/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "微信",
+    "navigationBarBackgroundColor": "#393A3E"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#43C017",
+    "backgroundColor": "#FCFCFC",
+    "list": [{
+      "pagePath": "pages/weixin/index",
+      "text": "微信",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }, {
+      "pagePath": "pages/contact/index",
+      "text": "通讯录",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }, {
+      "pagePath": "pages/find/index",
+      "text": "发现",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }, {
+      "pagePath": "pages/me/index",
+      "text": "我",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
