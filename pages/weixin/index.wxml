@@ -1,2 +1,15 @@
 <!--pages/weixin/index.wxml-->
-<text>pages/weixin/index.wxml</text>
+<view>
+    <scroll-view class="chat-list" scroll-y="true" wx:for="{{chatList}}" wx:for-item="item" wx:key="{{index}}">
+        <navigator class="chat-item" hover-class="navigator-hover" url="../chat/index?title={{item.title}}">
+            <image src="{{item.thumbnail}}" mode="scaleToFill"></image>
+            <view class="chat-content">
+                <view class="chat-title-bar">
+                    <text class="chat-title">{{item.title}}</text>  
+                    <text class="chat-time">{{item.time}}</text>
+                </view>
+                <text class="chat-msg">{{item.name ? item.name + '：' + item.msg : item.msg}}</text>
+            </view>
+        </navigator >
+    </scroll-view>
+</view>

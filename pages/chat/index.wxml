@@ -1,0 +1,11 @@
+<!--pages/weixin/chat.wxml-->
+<view class="chat-page">
+    <view class="chat-pane">聊天内容区域</view>
+    <view class="editor-area">
+        <view class="voice-icon"></view>
+        <input type="text" bindinput="onInputMsg"/>
+        <view class="expression-icon"></view>
+        <view class="{{showSubmitBtn ? 'addon-icon addon-hide' : 'addon-icon'}}"></view>
+        <button class="{{showSubmitBtn ? 'submit-btn' : 'submit-btn btn-hide'}}" size="mini" type="primary"          hover-class="submit-btn-click">发送</button>
+    </view>
+</view>
