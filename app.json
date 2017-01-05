@@ -11,29 +11,29 @@
     "navigationBarBackgroundColor": "#393A3E"
   },
   "tabBar": {
-    "color": "#999999",
-    "selectedColor": "#43C017",
-    "backgroundColor": "#FCFCFC",
+    "color": "#888888",
+    "selectedColor": "#09bb07",
+    "backgroundColor": "#fcfcfc",
     "list": [{
       "pagePath": "pages/weixin/index",
       "text": "微信",
-      "iconPath": "",
-      "selectedIconPath": ""
+      "iconPath": "./asserts/images/weixin_off.png",
+      "selectedIconPath": "./asserts/images/weixin_on.png"
     }, {
       "pagePath": "pages/contact/index",
       "text": "通讯录",
-      "iconPath": "",
-      "selectedIconPath": ""
+      "iconPath": "./asserts/images/contact_off.png",
+      "selectedIconPath": "./asserts/images/contact_on.png"
     }, {
       "pagePath": "pages/find/index",
       "text": "发现",
-      "iconPath": "",
-      "selectedIconPath": ""
+      "iconPath": "./asserts/images/find_off.png",
+      "selectedIconPath": "./asserts/images/find_on.png"
     }, {
       "pagePath": "pages/me/index",
       "text": "我",
-      "iconPath": "",
-      "selectedIconPath": ""
+      "iconPath": "./asserts/images/me_off.png",
+      "selectedIconPath": "./asserts/images/me_on.png"
     }]
   },
   "networkTimeout": {
